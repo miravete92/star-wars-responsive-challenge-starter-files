@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
 
+  <meta name="description" content="Star Wars Trading Cards">
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,9 +15,77 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="float-grid.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 
 </head>
 <body>
+<header>
+	<div class="row">
+		<h1>Star Wars Characters</h1>
+		<h3>Incomplete list</h3>
+	</div>
+</header>
+<main>
+	<div class="row">
+      <div class="col-4">
+        <div class="card">
+        	<img class="cardImage" src="images/rey_square.png" alt="Rey">
+        	<div class="cardFooter">
+        		<p class="cardName">Ray</p>
+        		<p class="cardDesc">Protagonist, from Tatooine</p>
+        	</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+        	<img class="cardImage" src="images/finn_square.png" alt="Finn">
+        	<div class="cardFooter">
+        		<p class="cardName">Finn</p>
+        		<p class="cardDesc">Storm Trooper, befriends Ray</p>
+        	</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+        	<img class="cardImage" src="images/kylo_square.png" alt="Kylo">
+        	<div class="cardFooter">
+        		<p class="cardName">Kylo</p>
+        		<p class="cardDesc">Main villain, or is he?</p>
+        	</div>
+        </div>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+        	<img class="cardImage" src="images/poe_square.png" alt="Poe">
+        	<div class="cardFooter">
+        		<p class="cardName">Poe</p>
+        		<p class="cardDesc">Neutral pilot</p>
+        	</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+        	<img class="cardImage" src="images/chewbacca_square.png" alt="Chewbacca">
+        	<div class="cardFooter">
+        		<p class="cardName">Chewbacca</p>
+        		<p class="cardDesc">A great first mate</p>
+        	</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+        	<img class="cardImage" src="images/yoda_square.png" alt="Yoda">
+        	<div class="cardFooter">
+        		<p class="cardName">Yoda</p>
+        		<p class="cardDesc">Wise old Jedi master</p>
+        	</div>
+        </div>
+      </div>
+    </div>
+</main>
 </body>
 </html>

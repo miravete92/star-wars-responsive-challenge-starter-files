@@ -1,0 +1,44 @@
+header{
+	background-color: orange;
+}
+header h1{
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+header h3{
+	font-size: 11px;
+	line-height: 12px;
+	margin-top: 6px;
+}
+main{
+	margin-top: 30px;
+}
+.card {
+  border: 1px #AAA solid;
+  margin-bottom: 20px;
+  font-size: 0;
+  transition: box-shadow 0.4s, transform 0.4s;
+}
+.cardImage{
+	max-width: 100%;
+	margin-bottom: 0;
+}
+.cardFooter{
+	margin-top: 0;
+	padding:10px;
+	border-top: 1px #AAA solid;
+}
+.cardName{
+	font-weight: bold;
+	font-size: 15px;
+	margin: 5px;
+}
+.cardDesc{
+	font-size: 12px;
+	margin: 5px;
+}
+.card:hover{
+	box-shadow: 0px 0px 10px;
+	transform: scale(1.02);
+}
